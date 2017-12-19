@@ -467,7 +467,7 @@ package body SOAP.Utils is
                                           + Natural'Value (TI (Minute_Range)) * 60
                                           + Natural'Value (TI (Second_Range))));
       end if;
-
+            
       return Types.T (T, Name, Type_Name => Type_Name);
    end Time_Instant;
 
